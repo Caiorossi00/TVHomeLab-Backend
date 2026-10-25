@@ -1,0 +1,32 @@
+export const mockMatches = [
+  {
+    id: 1,
+    status: 'LIVE',
+    statusText: "AO VIVO • 72'",
+    homeTeam: 'Flamengo',
+    homeScore: 2,
+    awayTeam: 'Palmeiras',
+    awayScore: 1,
+    kickoffTime: null,
+  },
+  {
+    id: 2,
+    status: 'SCHEDULED',
+    statusText: 'HOJE • 21:30',
+    homeTeam: 'Grêmio',
+    homeScore: null,
+    awayTeam: 'Internacional',
+    awayScore: null,
+    kickoffTime: '21:30',
+  },
+  {
+    id: 3,
+    status: 'FINISHED',
+    statusText: 'FINALIZADO',
+    homeTeam: 'Real Madrid',
+    homeScore: 3,
+    awayTeam: 'Barcelona',
+    awayScore: 1,
+    kickoffTime: null,
+  },
+];
